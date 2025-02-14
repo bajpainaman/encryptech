@@ -1,16 +1,14 @@
-from setuptools import setup, find_packages
-
 setup(
     name="encryptech",
-    version="0.1.0",
+    version="0.1.1",  # <-- Updated version here
     packages=find_packages(),
     install_requires=[
         "requests>=2.25.1",
     ],
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Naman",
+    author_email="nb3283@drexel.edu",
     description="A placeholder Python package for Encryptech API interactions",
-    url="https://github.com/yourusername/encryptech",
+    url="https://github.com/bajpainaman/encryptech",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
